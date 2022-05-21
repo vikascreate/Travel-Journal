@@ -1,0 +1,97 @@
+body{
+    font-family: 'Inter',sans-serif;
+}
+.navbar{
+    background-color: #F55A5A;
+    display: flex;
+}
+.navbar-world{
+    padding:1%;
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+   align-items: center;
+}
+.navbar-title{
+    color: aliceblue;
+    margin-right: auto;
+    align-self: center;
+}
+.card{
+    display: flex;
+    margin: 30px;
+}
+.card-tophalf{
+    display: flex;
+}
+.card-tophalf-path{
+    width:20px;
+    height: 30px;
+    margin-top: 30px;
+}
+.card-tophalf-country{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+font-style: normal;
+font-weight: 400;
+font-size: 24.1928px;
+line-height: 29px;
+letter-spacing: 0.17em;
+color: #2B283A;
+}
+.card-right{
+    margin-left: 40px; 
+}
+.card-tophalf-country-link{
+    margin-top: 30px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 29px;
+text-decoration-line: underline;
+
+color: #918E9B;
+}
+.card-tophalf-location{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 71px;
+
+color: #2B283A;
+}
+.card-tophalf-date{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-style: normal;
+font-weight: 700;
+font-size: 24.1928px;
+line-height: 29px;
+
+color: #2B283A;
+}
+.card-content{
+    font-style: normal;
+font-weight: 400;
+font-size: 24.1928px;
+line-height: 150%;
+/* or 36px */
+
+
+color: #2B283A;
+
+}
+.hr{
+    flex-direction: column;
+}
+.card-img{
+    width: 310px;
+border-radius: 12.8942px;
+}
